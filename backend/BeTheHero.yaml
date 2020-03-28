@@ -1,0 +1,239 @@
+_type: export
+__export_format: 4
+__export_date: 2020-03-27T23:27:56.765Z
+__export_source: insomnia.desktop.app:v7.1.1
+resources:
+  - _id: req_cca8817b203e49cb99a069317e71ef6a
+    authentication: {}
+    body: {}
+    created: 1585349004703
+    description: ""
+    headers:
+      - description: ""
+        id: pair_e4454877b6e648de85a3d9c3aa653698
+        name: Authorization
+        value: 5f9a60d2
+    isPrivate: false
+    metaSortKey: -1585349004703
+    method: GET
+    modified: 1585349036169
+    name: Profile
+    parameters: []
+    parentId: wrk_dbb646860c7a4b2e9e9bce72704533c6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/profile
+    _type: request
+  - _id: wrk_dbb646860c7a4b2e9e9bce72704533c6
+    created: 1582241301738
+    description: ""
+    modified: 1585346849111
+    name: BeTheHero
+    parentId: null
+    _type: workspace
+  - _id: req_d739b47baf534ca5909af7ee05ece27d
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id": "5f9a60d2"
+        }
+    created: 1585349268076
+    description: ""
+    headers:
+      - id: pair_5ccfc474605d475bba713da3e8ee7c07
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1585348531658
+    method: POST
+    modified: 1585349342661
+    name: Login
+    parameters: []
+    parentId: wrk_dbb646860c7a4b2e9e9bce72704533c6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/sessions
+    _type: request
+  - _id: req_be362466a98c479d8580cd3cc3737713
+    authentication: {}
+    body: {}
+    created: 1585348396462
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1585348058613
+    method: GET
+    modified: 1585349505596
+    name: List
+    parameters: []
+    parentId: fld_e7779374e9fe43fa8a0176a781be234e
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/incidents?page=1
+    _type: request
+  - _id: fld_e7779374e9fe43fa8a0176a781be234e
+    created: 1585348050235
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1585348050235
+    modified: 1585348050235
+    name: Casos
+    parentId: wrk_dbb646860c7a4b2e9e9bce72704533c6
+    _type: request_group
+  - _id: req_7187b0cb94f645839109806ade7771c7
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "Caso ômega",
+        	"description": "Detalhes do caso",
+        	"value": 120
+        }
+    created: 1585348058563
+    description: ""
+    headers:
+      - id: pair_8e13fbf698b74064b5af6c2bec26a4fb
+        name: Content-Type
+        value: application/json
+      - description: ""
+        id: pair_de17bb8e08294a7db142aeb47b4b4f81
+        name: Authorization
+        value: 5f9a60d2
+    isPrivate: false
+    metaSortKey: -1585348058563
+    method: POST
+    modified: 1585348154599
+    name: Create
+    parameters: []
+    parentId: fld_e7779374e9fe43fa8a0176a781be234e
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/incidents
+    _type: request
+  - _id: req_b357bf5f26294dfba824c2eac068ae6f
+    authentication: {}
+    body: {}
+    created: 1585348716426
+    description: ""
+    headers:
+      - description: ""
+        id: pair_de17bb8e08294a7db142aeb47b4b4f81
+        name: Authorization
+        value: 5f9a60d2
+    isPrivate: false
+    metaSortKey: -1585347467446
+    method: DELETE
+    modified: 1585348740028
+    name: Delete
+    parameters: []
+    parentId: fld_e7779374e9fe43fa8a0176a781be234e
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/incidents/1
+    _type: request
+  - _id: req_97c3b9b29a4f484e83c77035f742c389
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Pequeno Príncipe",
+        	"email": "pequeno@principe.com",
+        	"whatsapp": "11999999999",
+        	"city": "São Paulo",
+        	"uf": "SP"
+        }
+    created: 1585346876328
+    description: ""
+    headers:
+      - id: pair_b949de37cd7742d08421be983837e3ca
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1585346876329
+    method: POST
+    modified: 1585346999648
+    name: Create
+    parameters: []
+    parentId: fld_5882415cb308457299d42712fde63d71
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/ongs
+    _type: request
+  - _id: fld_5882415cb308457299d42712fde63d71
+    created: 1585346867607
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1585346867607
+    modified: 1585346867607
+    name: Ongs
+    parentId: wrk_dbb646860c7a4b2e9e9bce72704533c6
+    _type: request_group
+  - _id: req_77d3f400b7334101af20510338bc8113
+    authentication: {}
+    body: {}
+    created: 1585347491940
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1584822117078
+    method: GET
+    modified: 1585347496671
+    name: List
+    parameters: []
+    parentId: fld_5882415cb308457299d42712fde63d71
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/ongs
+    _type: request
+  - _id: env_293b36da49e7c400858b58f023475aa4c87e58a1
+    color: null
+    created: 1582241301814
+    data: {}
+    dataPropertyOrder: null
+    isPrivate: false
+    metaSortKey: 1582241301814
+    modified: 1582241301814
+    name: Base Environment
+    parentId: wrk_dbb646860c7a4b2e9e9bce72704533c6
+    _type: environment
+  - _id: jar_293b36da49e7c400858b58f023475aa4c87e58a1
+    cookies: []
+    created: 1582241301820
+    modified: 1582241301820
+    name: Default Jar
+    parentId: wrk_dbb646860c7a4b2e9e9bce72704533c6
+    _type: cookie_jar
