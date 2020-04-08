@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jugiorgi/BeTheHero">
-    <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/assets/logo.svg" alt="Logo">
+    <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/assets/logo.png" alt="Logo">
   </a>
 </p>
 <br />
@@ -14,13 +14,13 @@ O Be The Hero surgiu com o intuito de auxiliar as ONGs na divulgação dos seus 
 ## Aplicação
 
 <p align="center">
-  <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/login.jpeg" width="350" alt="login">
-  <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/cadastro_ong.jpeg" width="350" alt="cadastro ong">
+  <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/login.png" width="350" alt="login">
+  <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/cadastro_ong.png" width="350" alt="cadastro ong">
 </p>
 
 <p align="center">
-  <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/perfil.jpeg" width="350" alt="perfil">
-  <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/cadastro_caso.jpeg" width="350" alt="cadastro caso">
+  <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/perfil.png" width="350" alt="perfil">
+  <img src="https://github.com/jugiorgi/BeTheHero/frontend/src/cadastro_caso.png" width="350" alt="cadastro caso">
 </p>
 
 
