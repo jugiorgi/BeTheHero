@@ -14,13 +14,13 @@ O Be The Hero surgiu com o intuito de auxiliar as ONGs na divulgação dos seus 
 ## Aplicação
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/login.png" width="400" alt="login">
-  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/cadastro_ong.png" width="400" alt="cadastro ong">
+  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/login.png" width="500" alt="login">
+  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/cadastro_ong.png" width="500" alt="cadastro ong">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/perfil.png" width="400" alt="perfil">
-  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/cadastro_caso.png" width="400" alt="cadastro caso">
+  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/perfil.png" width="500" alt="perfil">
+  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/cadastro_caso.png" width="500" alt="cadastro caso">
 </p>
 
 
