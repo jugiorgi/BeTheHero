@@ -11,7 +11,10 @@
 O Be The Hero surgiu com o intuito de auxiliar as ONGs na divulgação dos seus casos para atingir um público ainda maior.
 É um sistema criado pela Rocketseat no curso OmniStack 11.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Logo" width="50" >
+<p align="start">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50" >
+    <img src="https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png" alt="Node" width="34" >
+</p>
 
 ## Aplicação
 
