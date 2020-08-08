@@ -16,17 +16,6 @@ O Be The Hero surgiu com o intuito de auxiliar as ONGs na divulgação dos seus 
     <img src="https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png" alt="Node" width="34" >
 </p>
 
-## Aplicação
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/login.png" width="800" alt="login">
-  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/cadastro_ong.png" width="800" alt="cadastro ong">
-  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/perfil.png" width="800" alt="perfil">
-  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/cadastro_caso.png" width="800" alt="cadastro caso">
-</p>
-
-
-
 ### BACKEND
 
 ##### Instalando as dependências
@@ -52,4 +41,11 @@ npm dev
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=BeTheHero&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fjugiorgi%2FBackend-BeTheHero%2Fmaster%2FBeTheHero.yaml)
 
 
-###### [http://localhost:3333](http://localhost:3333)
+## Aplicação
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/login.png" width="800" alt="login">
+  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/cadastro_ong.png" width="800" alt="cadastro ong">
+  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/perfil.png" width="800" alt="perfil">
+  <img src="https://raw.githubusercontent.com/jugiorgi/BeTheHero/master/images/cadastro_caso.png" width="800" alt="cadastro caso">
+</p>
